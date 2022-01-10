@@ -20,7 +20,7 @@ function CardList (){
         <div className="container card-list__wrapper">
             <div className="card-list">
                 {bookList.map((book)=>(
-                    <Card key={book.id} title={book.book_title} image={book.cover_url} description={book.book_short_description} />
+                    <Card key={book.id} id={book.id} title={book.book_title} image={book.cover_url} description={book.book_short_description} />
                 ))}
             </div>
 

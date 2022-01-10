@@ -29,8 +29,10 @@ function App() {
         </SidebarVisibilityContextProvider>
         <Routes>
           <Route path="/" exact element={<Home/>} />
+          
+          <Route path="/book"exact element={<Detail/>} />
+          <Route path="/book/:id" exact element={<Detail />} />
           <Route path="/list" element={<List/>} />
-          <Route path="/book" element={<Detail/>} />
           <Route path="/create" element={<Create/>} />
           
         </Routes>

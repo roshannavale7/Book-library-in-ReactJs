@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function BookHeading (){
+function BookHeading ({book_title}){
 
     return (
         <div class="section-heading-block">
